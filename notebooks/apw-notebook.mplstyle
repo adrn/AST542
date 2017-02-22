@@ -1,0 +1,48 @@
+figure.dpi: 300
+
+axes.titlesize: 26
+axes.labelsize: 22
+xtick.labelsize: 18
+ytick.labelsize: 18
+
+font.family: serif
+font.weight: normal
+mathtext.fontset: cm
+text.usetex: False
+# text.latex.preamble: \usepackage{amsmath}
+
+# styles
+lines.linestyle   : -       # solid line
+lines.color       : k    # has no affect on plot(); see axes.color_cycle
+lines.marker      : .    # the default marker
+lines.markeredgewidth  : 0.     # the line width around the marker symbol
+lines.markersize  : 5           # markersize, in points
+patch.facecolor        : k
+patch.edgecolor        : none
+
+# figure and axes
+figure.facecolor: ffffff
+figure.edgecolor: ffffff
+axes.facecolor: ffffff
+axes.edgecolor: 333333
+axes.formatter.limits: -7, 10  # scientific notation limits
+
+# ticks
+xtick.major.width: 1.
+ytick.major.width: 1.
+xtick.color: 333333
+ytick.color: 333333
+xtick.direction: in
+ytick.direction: in
+xtick.major.size: 8      # major tick size in points
+xtick.minor.size: 4      # minor tick size in points
+ytick.major.size: 8      # major tick size in points
+ytick.minor.size: 4      # minor tick size in points
+
+# the grid
+grid.color: cccccc   # grid color
+grid.linestyle: -
+grid.linewidth: 0.75     # in points
+
+# color
+axes.prop_cycle: cycler('color', ['1A1A1A', '2166AC', '006837', 'B2182B', '762A83', 'E08214', '80CDC1', 'C51B7D', 'FEE08B'])
