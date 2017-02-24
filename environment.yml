@@ -1,0 +1,20 @@
+name: ast542
+
+channels:
+  - astropy
+
+dependencies:
+  - python=3
+  - astropy
+  - cython
+  - numpy
+  - matplotlib
+  - scipy
+  - emcee
+  - pip
+  - jupyter
+  - notebook
+  - pip:
+    - git+https://github.com/adrn/gala.git
+    - schwimmbad
+    - corner
