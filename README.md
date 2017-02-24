@@ -4,10 +4,10 @@ Princeton astro grad seminar on statistical methods.
 
 ## Dependencies
 
-I recommend using [anaconda](https://anaconda.org/) as your Python distribution and package
-manager. (If you don't already use it, you can download it and install a new version of Python
+We're going to use [anaconda](https://anaconda.org/) as our Python distribution and package
+manager. If you don't already use it, you can download it and install a new version of Python
 pretty harmlessly. It will install everything to a new directory so it won't mess with your
-existing installation). One of the great advantages of Anaconda is the ability to create [conda
+existing installation. One of the great advantages of Anaconda is the ability to create [conda
 environments](https://conda.io/docs/using/envs.html) that let you maintain different, independent
 Python installations (e.g., you can have Python 2 and 3 installed in parallel) and easily switch
 between them. I recommend creating a new environment for this material with all of the packages
